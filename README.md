@@ -19,3 +19,15 @@ A new location requires <b>5</b> attrabutes:
   <li>Location Area (radius)</li>
   <li>Dynamic Reminders</li>
 </ul>
+
+<img src="https://raw.githubusercontent.com/brendan-kellam/GPSZone/master/Source%20Images/img_2.png" width="600" height="400"><br>
+GPSZone takes advantage of Google Maps to determine a users desired position for a given location. Simply locate the position on Google Maps, right click and select "Directions to Here".
+
+<img src="https://raw.githubusercontent.com/brendan-kellam/GPSZone/master/Source%20Images/img_3.png" width="600" height="30"><br>
+The URL for this page can then be copied into the "Position" input box. 
+
+<img src="https://raw.githubusercontent.com/brendan-kellam/GPSZone/master/Source%20Images/img_4.png" width="400" height="400"><br>
+A finished location input looks similar to this. 
+
+<img src="https://raw.githubusercontent.com/brendan-kellam/GPSZone/master/Source%20Images/img_5.png" width="400" height="400"><br>
+The created location is then added to a location list. 
