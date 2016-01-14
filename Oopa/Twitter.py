@@ -1,4 +1,4 @@
-#import tweepy;
+import tweepy;
 import tkMessageBox;
 
 #-------
@@ -20,8 +20,7 @@ class Twitter:
         access_token = "2929065220-fLBnmTKeODyDAJaNmWnjmz8S0aNDH0fKmvDByjG";
         access_token_secret = "fU5vkvzzTSxHTx4dhcvhaShi2t8fr91yTEqS4D2LRFiiG";
         
-        """
-        
+    
         #call to twitter so the aunthentication process can occure with the provided app information (see above^)
         auth = tweepy.OAuthHandler(consumer_key, consumer_secret);
         
@@ -34,7 +33,6 @@ class Twitter:
         #create a new api object using the authentication data (this object will allow for posts to occur)
         self.api = tweepy.API(auth);
         
-        """
     
     #tweet function. Simply just tweets to the user
     def tweet(self, message, username):
@@ -42,7 +40,6 @@ class Twitter:
         #add a @ symbol to refrence the user and the message following
         data = "@" + username + " " + message;
         
-        """
         #try except employed incase error occures
         try:
             
@@ -53,4 +50,3 @@ class Twitter:
             #if a error occurs, show error popup
             tkMessageBox.showinfo("Error", "It seems one of your tweets failed to upload \nthis may be caused by a repeat message.\n sorry :/");  
             
-        """
